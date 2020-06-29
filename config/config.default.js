@@ -147,8 +147,8 @@ module.exports = appInfo => {
 
   config.alinode = {
     // 从 `Node.js 性能平台` 获取对应的接入参数
-    appid: process.env.EGG_ALINODE_APPID || '',
-    secret: process.env.EGG_ALINODE_SECRET || '',
+    appid: process.env.EGG_ALINODE_APPID || '85394',
+    secret: process.env.EGG_ALINODE_SECRET || 'ca9af96a1e8c094045e009929947612c756c6c85',
   };
 
   config.topic = {
